@@ -55,6 +55,7 @@ function Parent() {
   return (
     <div>
       <h3>Parent Component</h3>
+      <p>JSX is cool</p>
     </div>
   );
 }
