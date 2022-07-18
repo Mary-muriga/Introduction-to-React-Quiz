@@ -65,13 +65,16 @@ function App() {
   const [] = React.useState(true);
   return (
     
-    <>
+    <div>
     <p>JSX is cool!</p>
     
     <img src= {logo}className="App-logo" alt="logo" />
       <h3>User names</h3>
+
+       <ul classname = "users" >{users.map((users)=> (
+        <App key={users.id} name={users.name}/> ))} </ul>
       
-      <ul></ul>
+      
       <button>Hide Element Below</button>
 
       <div>Toggle Challenge
@@ -81,7 +84,7 @@ function App() {
       <Parent>
       <Child />
     </Parent>
-    </>
+    </div>
   );
 }
 
