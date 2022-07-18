@@ -55,7 +55,7 @@ function Parent() {
   return (
     <div>
       <h3>Parent Component</h3>
-      <p>JSX is cool</p>
+  
     </div>
   );
 }
@@ -66,13 +66,18 @@ function App() {
   return (
     
     <>
+    <p>JSX is cool!</p>
     
-    <img src={logo} className="App-logo" alt="logo" />
+    <img src= {logo}className="App-logo" alt="logo" />
       <h3>User names</h3>
+      
       <ul></ul>
       <button>Hide Element Below</button>
 
-      <div>Toggle Challenge</div>
+      <div>Toggle Challenge
+        
+      </div>
+
       <Parent>
       <Child />
     </Parent>
